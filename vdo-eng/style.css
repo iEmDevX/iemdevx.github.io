@@ -1,0 +1,6 @@
+:root{--bg:#fff;--fg:#1a1a1a;--muted:#555;--link:#1a56db}
+@media (prefers-color-scheme:dark){:root{--bg:#121212;--fg:#eee;--muted:#aaa;--link:#8ab4f8}}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 system-ui,-apple-system,"Segoe UI",sans-serif}
+main{max-width:720px;margin:0 auto;padding:32px 16px}
+h1{line-height:1.25}a{color:var(--link)}nav a{margin-right:16px}
+footer{margin-top:40px;color:var(--muted);font-size:14px}
